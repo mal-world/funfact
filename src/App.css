@@ -1,0 +1,36 @@
+.App {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+}
+
+.animal-grid {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.animal {
+  width: 250px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.animal:hover {
+  transform: scale(1.1);
+}
+
+.fact {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
